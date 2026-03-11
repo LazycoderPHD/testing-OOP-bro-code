@@ -39,9 +39,10 @@ void RunConstructorDemo()
     // constructor = A special method to initialize objects
     //                         You can pass arguments to a constructor
     //                         and set up initial values
-    Student student1 = new Student();
-    Student student2 = new Student();
-    Console.WriteLine(student1.name);
-    Console.WriteLine(student2.name);
+    Student student1 = new Student("Spongebob", 30, 3.2);
+    Student student2 = new Student("Patrick", 34, 1.5);
+
+    Console.WriteLine($"{student1.name}, {student1.age}, {student1.gpa}");
+    Console.WriteLine($"\n{student2.name}, {student2.age}, {student2.gpa}");
 }
 
