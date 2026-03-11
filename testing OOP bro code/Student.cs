@@ -6,12 +6,17 @@ using System.Threading.Tasks;
 
 namespace testing_OOP_bro_code
 {
-    
-        public class Student
+    public class Student
+    {
+        public string name = "Spongebob";
+        public int age;
+        public double gpa;
+        public bool isEnrolled;
+
+        Student()
         {
-            public string name;
-            public int age;
-            public double gpa;
-            public bool isEnrolled;
+
         }
+
+    }
 }

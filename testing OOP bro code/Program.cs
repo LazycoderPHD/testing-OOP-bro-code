@@ -2,6 +2,7 @@
 
 
 //RunBasicOOPDemo();
+RunConstructorDemo();
 void RunBasicOOPDemo()
 {
     // Object = An entity that holds data (attributes)
@@ -38,7 +39,9 @@ void RunConstructorDemo()
     // constructor = A special method to initialize objects
     //                         You can pass arguments to a constructor
     //                         and set up initial values
-
-
+    Student student1 = new Student();
+    Student student2 = new Student();
+    Console.WriteLine(student1.name);
+    Console.WriteLine(student2.name);
 }
 
