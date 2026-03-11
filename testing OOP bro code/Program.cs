@@ -2,7 +2,6 @@
 
 
 //RunBasicOOPDemo();
-RunConstructorDemo();
 void RunBasicOOPDemo()
 {
     // Object = An entity that holds data (attributes)
@@ -34,6 +33,8 @@ void RunBasicOOPDemo()
     car1.brake();
 }
 
+
+RunConstructorDemo();
 void RunConstructorDemo()
 {
     // constructor = A special method to initialize objects
@@ -41,8 +42,14 @@ void RunConstructorDemo()
     //                         and set up initial values
     Student student1 = new Student("Spongebob", 30, 3.2);
     Student student2 = new Student("Patrick", 34, 1.5);
+    Student student3 = new Student("Sandy", 36, 4.0);
 
-    Console.WriteLine($"{student1.name}, {student1.age}, {student1.gpa}");
-    Console.WriteLine($"\n{student2.name}, {student2.age}, {student2.gpa}");
+    Console.WriteLine($"{student1.name}, {student1.age}, {student1.gpa}, {student1.isEnrolled}");
+    Console.WriteLine($"\n{student2.name}, {student2.age}, {student2.gpa}, {student2.isEnrolled}");
+    Console.WriteLine($"\n{student3.name}, {student3.age}, {student3.gpa}, {student3.isEnrolled}");
+
+    student1.study();
+    student2.study();
+    student3.study();
 }
 

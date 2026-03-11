@@ -18,6 +18,12 @@ namespace testing_OOP_bro_code
             this.name = name;
             this.age = age;
             this.gpa = gpa;
+            this.isEnrolled = true;
+        }
+
+        public void study()
+        {
+            Console.WriteLine($"{this.name} is studying!");
         }
 
     }
