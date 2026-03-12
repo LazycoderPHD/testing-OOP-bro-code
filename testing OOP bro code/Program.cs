@@ -34,7 +34,7 @@ void RunBasicOOPDemo()
 }
 
 
-RunConstructorDemo();
+//RunConstructorDemo();
 void RunConstructorDemo()
 {
     // constructor = A special method to initialize objects
@@ -51,5 +51,26 @@ void RunConstructorDemo()
     student1.study();
     student2.study();
     student3.study();
+}
+
+RunOverloadedConstructorDemo();
+void RunOverloadedConstructorDemo()
+{
+    // overloaded constructors = Allow a class to have multiple constructors
+    //                                                 with different parameter lists.
+    //                           Enable objects to be initialized in various ways.
+
+    User user1 = new User("Spongebob");
+    User user2 = new User("Phat", "phatdao2309@gmail.com");
+
+    Console.WriteLine(user1.username);
+    Console.WriteLine(user1.email);
+    Console.WriteLine(user1.age);
+
+    Console.WriteLine();
+
+    Console.WriteLine(user2.username);
+    Console.WriteLine(user2.email);
+    Console.WriteLine(user2.age);
 }
 
