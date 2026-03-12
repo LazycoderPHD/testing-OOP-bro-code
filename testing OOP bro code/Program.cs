@@ -1,4 +1,5 @@
-﻿using testing_OOP_bro_code;
+﻿using System.Diagnostics;
+using testing_OOP_bro_code;
 
 
 //RunBasicOOPDemo();
@@ -62,6 +63,8 @@ void RunOverloadedConstructorDemo()
 
     User user1 = new User("Spongebob");
     User user2 = new User("Phat", "phatdao2309@gmail.com");
+    User user3 = new User("Hung", "hungdao0701@mail.com", 30);
+    User user4 = new User();
 
     Console.WriteLine(user1.username);
     Console.WriteLine(user1.email);
@@ -72,5 +75,17 @@ void RunOverloadedConstructorDemo()
     Console.WriteLine(user2.username);
     Console.WriteLine(user2.email);
     Console.WriteLine(user2.age);
+
+    Console.WriteLine();
+
+    Console.WriteLine(user3.username);
+    Console.WriteLine(user3.email);
+    Console.WriteLine(user3.age);
+
+    Console.WriteLine();
+
+    Console.WriteLine(user4.username);
+    Console.WriteLine(user4.email);
+    Console.WriteLine(user4.age);
 }
 
