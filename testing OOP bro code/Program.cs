@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics;
+using System.Runtime.CompilerServices;
 using testing_OOP_bro_code;
 
 
@@ -89,8 +90,10 @@ void RunOverloadedConstructorDemo()
     Console.WriteLine(user4.age);
 }
 
-RunArrayOfOjectsDemo();
-void RunArrayOfObject()
+RunArrayOfObjectsDemo();
+void RunArrayOfObjectsDemo()
 {
-    
+    Vehicle vehicle1 = new Vehicle("Mustang", "Red");
+    Vehicle vehicle2 = new Vehicle("Peugeot", "White");
+    Vehicle vehicle3 = new Vehicle("Huyndai", "Black");
 }
