@@ -54,7 +54,7 @@ void RunConstructorDemo()
     student3.study();
 }
 
-RunOverloadedConstructorDemo();
+//RunOverloadedConstructorDemo();
 void RunOverloadedConstructorDemo()
 {
     // overloaded constructors = Allow a class to have multiple constructors
@@ -89,3 +89,8 @@ void RunOverloadedConstructorDemo()
     Console.WriteLine(user4.age);
 }
 
+RunArrayOfOjectsDemo();
+void RunArrayOfObject()
+{
+    
+}
